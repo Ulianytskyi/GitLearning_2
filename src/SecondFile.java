@@ -1,3 +1,8 @@
 public class SecondFile {
-    //only comment
+    public static void main(String[] args) {
+        SecondFile secFile = new SecondFile();
+    }
+    public SecondFile() {
+        System.out.println("Hello there!");
+    }
 }
